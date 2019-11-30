@@ -8,11 +8,11 @@
 		<version>2.1.8.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.czu.kof.dea</groupId>
-	<artifactId>SocialMediaAlghorithmCZU</artifactId>
+	<groupId>com.czu.project</groupId>
+	<artifactId>CZUAlgho</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SocialMediaAlghorithmCZU</name>
-	<description>Microservice for calculating social media outputs by using DEA method</description>
+	<name>CZU Alghorithms</name>
+	<description>School Project</description>
 
 	<properties>
 		<java.version>1.8</java.version>

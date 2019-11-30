@@ -1,4 +1,4 @@
-package com.czu.kof.dea.SocialMediaAlghorithmCZU;
+package com.czu.project;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SocialMediaAlghorithmCzuApplicationTests {
+public class CZUalghoTests {
 
 	@Test
 	public void contextLoads() {

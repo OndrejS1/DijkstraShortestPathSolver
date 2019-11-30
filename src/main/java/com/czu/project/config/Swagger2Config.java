@@ -1,4 +1,4 @@
-package com.czu.kof.dea.SocialMediaAlghorithmCZU.config;
+package com.czu.project.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +15,7 @@ public class Swagger2Config {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors
-                        .basePackage("com.czu.kof.dea.SocialMediaAlghorithmCZU.controller"))
+                        .basePackage("com.czu.project.controller"))
                 .paths(PathSelectors.regex("/.*"))
                 .build();
     }
